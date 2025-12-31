@@ -1,0 +1,64 @@
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Packaging / builds ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Test / tooling caches ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+tox/
+.nox/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Data / outputs (large files) ----
+data/images/
+data/images/
+data/raw/*with_images.csv
+outputs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# ---- Experiment trackers ----
+wandb/
+mlruns/
+tensorboard/
+runs

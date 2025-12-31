@@ -46,9 +46,16 @@ Thumbs.db
 # ---- Logs ----
 *.log
 
+data/processed/
+artifacts/
+*.pkl
+*.joblib
+*.npz
+
+
 # ---- Data / outputs (large files) ----
-data/images/
-data/images/
+data/images/train/
+data/images/test/
 data/raw/*with_images.csv
 outputs/
 checkpoints/

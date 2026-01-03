@@ -58,6 +58,11 @@ data/images/train/
 data/images/test/
 data/raw/*with_images.csv
 outputs/
+!outputs/enrollno_final.csv
+!outputs/eda/
+!outputs/gradcam/
+!outputs/results_table.md
+!outputs/*.json
 checkpoints/
 *.ckpt
 *.pt

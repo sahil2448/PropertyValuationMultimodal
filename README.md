@@ -128,7 +128,3 @@ python src/gradcam_generate.py
 
 **Sahil Kamble**  
 GitHub: [@sahil2448](https://github.com/sahil2448)
-
-## License
-
-This project is for educational purposes.

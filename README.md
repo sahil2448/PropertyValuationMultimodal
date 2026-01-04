@@ -1,3 +1,5 @@
+***Note --> The recommended files have been added to the root of project also...but while building the project, all the files were used from src
+
 # Satellite Imagery-Based Property Valuation
 
 A multimodal regression pipeline that predicts property market value by combining tabular housing data with satellite imagery.
